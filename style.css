@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(249, 250, 250);
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    color: black;
+    background-image:url('header.jpg');
+    display: inline-block;   
+}
+
+header img{
+    float: right;
+    width: 100px;
+    height: 50px;
+}
+
+nav{
+    padding:1em;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(136, 223, 245);
+    border: 1px black solid;
+    display: inline-block;
+    
+}
+div{
+    position: relative;
+    top: -300px;
+    left: 100px;
+}
+h4{
+    color: black;
+    background-color: white;
+    font-size: x-large;
+    display: inline-block;
+    padding: 8px;
+    border: rgb(131, 22, 22) 1px solid;
+}
+h1{
+    width: 100%;
+    padding: 1em;
+    margin-left:-1em;
+    text-align: right;
+    background-color: rgb(224, 147, 201);
+    display: inline-block;
+}
+h3{
+    background-color: rgb(248, 189, 178);
+    display: inline-block;
+    border: black 1px solid;
+    padding: 5px;
+}
+section{
+    
+}
+footer{
+    background-image: url('logo.jpg');
+    background-position: right bottom;
+    background-size: 100px 50px;
+    background-repeat: no-repeat;
+    background-color: rgb(152, 204, 206);
+}
+footer nav{
+    background-color:rgb(152, 204, 206);
+    border: rgb(152, 204, 206);
+}
